@@ -14,14 +14,36 @@ console.log();
 //   }
 // }
 
-function fizzbuzz(arr) {
-  arr.forEach((Number) => {
-    if (Number % 3 === 0 && Number % 5 === 0) {
-      console.log("fizzbuzz");
-    } else if (Number % 3 === 0) {
-      console.log("fizz");
-    } else if (Number % 5 === 0) {
-      console.log("buzz");
-    }
-  });
-}
+// function fizzbuzz(arr) {
+//   arr.forEach((Number) => {
+//     if (Number % 3 === 0 && Number % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (Number % 3 === 0) {
+//       console.log("fizz");
+//     } else if (Number % 5 === 0) {
+//       console.log("buzz");
+//     }
+//   });
+// }
+// const fizzbuzz = (arr) => {
+//   arr.forEach((Number) => {
+//     if (Number % 3 === 0 && Number % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (Number % 3 === 0) {
+//       console.log("fizz");
+//     } else if (Number % 5 === 0) {
+//       console.log("buzz");
+//     }
+//   });
+// };
+// devin === 27 ? 5 : 3;
+// const fizzbuzz = (arr) =>
+//   arr.forEach((num) =>
+//     num % 3 === 0 && num % 5 === 0
+//       ? console.log("fizzbuzz")
+//       : num % 3 === 0
+//       ? console.log("fizz")
+//       : console.log("buzz")
+//   );
+
+ 
