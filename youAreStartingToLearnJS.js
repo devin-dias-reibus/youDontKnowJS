@@ -102,10 +102,12 @@ const animals = [
 
 //using side effects ( mutate something outside of scope) to populate allAnimals with the original animals array
 
-//now take allAnimals and populate all Animals That begin With R
+//now take allAnimals and populate allAnimalsThatbeginWithR
 
-// Now create a new array thats is all animalswhich begin with R but now you actually have to remove the R
-// I would read about FileSystemEntry, foreach and map here
+// Now create a new array without creating a sideeffect that is all animals that begin with R,  but now you have to remove the R
+// I would read about filter, foreach and map here
+
+
 
 
 //very tough extra credit. Take the orignal array and turn it into and object where each key is the animals names and the value is an array of all the animals which start with th same letter
@@ -186,3 +188,6 @@ console.log("rwgt" === true)
 
 // https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion
 
+
+
+//dont feel like you have to follow this word for word. try adding a version to the file name and keeping versions if you want to play arround
