@@ -1,5 +1,5 @@
 // Working with arrays
-const animals = [
+let animals = [
   "Aardvark",
   "Albatross",
   "Alligator",
@@ -90,6 +90,22 @@ const animals = [
   "Rail",
   "Ram",
 ];
+
+// const run = () => {
+//   // animals.push(5);
+//   // return (animals);
+//   const animals = 5;
+//   return (animals);
+// };
+// run();
+// const run = (a) => {
+//   a = 5;
+//   return a;
+// }
+// console.log(run(animals));
+// run(animals)
+// animals = 5;
+// console.log(animals);
 
 // reading on array methods. we will use them to make some pure functions and some side effects
 // https://www.telerik.com/blogs/pure-functions-side-effects-javascript
