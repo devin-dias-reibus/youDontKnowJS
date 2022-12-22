@@ -93,8 +93,8 @@ const animals = [
 
 // reading on array methods. we will use them to make some pure functions and some side effects
 // https://www.telerik.com/blogs/pure-functions-side-effects-javascript
-const AllAnimals = [];
-const allAnimalsThatbeginWithR = [];
+// const AllAnimals = [];
+// const allAnimalsThatbeginWithR = [];
 
 // STOP Here, whats you're status ? are you on your own new feature branch ?
 
@@ -104,7 +104,10 @@ const allAnimalsThatbeginWithR = [];
 // foreach
 const AllAnimals = animals;
 //now take allAnimals and populate allAnimalsThatbeginWithR
-const allAnimalsThatBeginWithR = AllAnimals.filter(animal => animal[0] === 'R');
+const allAnimalsThatBeginWithR = AllAnimals.filter(
+  (animal) => animal[0] === "R"
+);
+console.log(allAnimalsThatBeginWithR);
 
 // filter
 // Now create a new array without creating a sideeffect that is all animals that begin with R,  but now you have to remove the R "map"
