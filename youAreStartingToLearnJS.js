@@ -120,11 +120,22 @@ let animals = [
 // foreach
 const AllAnimals = animals;
 //now take allAnimals and populate allAnimalsThatbeginWithR
-const allAnimalsThatBeginWithR = AllAnimals.filter(
-  (animal) => animal[0] === "R"
-);
-console.log(allAnimalsThatBeginWithR);
-
+// const allAnimalsThatBeginWithR = AllAnimals.filter(
+//   (animal) => animal[0] === "R"
+// );
+// console.log(allAnimalsThatBeginWithR);
+// const obj = {
+//   run: (log) => console.log(log),
+// };
+// obj.run("devin is the best");
+// animals.forEach((item, index, array) => {
+//   animals[index] = 5;
+// });
+// console.log(animals);
+const walk = animals.map((i) => i)
+console.log(walk);
+console.log(walk);
+// console.log(animals.prototype);
 // filter
 // Now create a new array without creating a sideeffect that is all animals that begin with R,  but now you have to remove the R "map"
 // I would read about filter, foreach and map here
