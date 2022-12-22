@@ -101,10 +101,13 @@ const allAnimalsThatbeginWithR = [];
 // I want to do an intitial commit - some more changes
 
 //using side effects ( mutate something outside of scope) to populate allAnimals with the original animals array
-
+// foreach
+const AllAnimals = animals;
 //now take allAnimals and populate allAnimalsThatbeginWithR
+const allAnimalsThatBeginWithR = AllAnimals.filter(animal => animal[0] === 'R');
 
-// Now create a new array without creating a sideeffect that is all animals that begin with R,  but now you have to remove the R
+// filter
+// Now create a new array without creating a sideeffect that is all animals that begin with R,  but now you have to remove the R "map"
 // I would read about filter, foreach and map here
 
 //very tough extra credit. Take the orignal array and turn it into and object where each key is the animals names and the value is an array of all the animals which start with th same letter
